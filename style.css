@@ -28,8 +28,17 @@
   
   /* Lower to the bottom of the page */
   .articlesection {
-float: left;
+
+float: bottom;
 text-align: Center;
 padding: 15px;
+margin: 15px;
 
+  }
+
+  /* adding a border to the article section */
+  .articlesection{
+      border: skyblue;
+      height: 75px;
+      width: 75px;
   }
