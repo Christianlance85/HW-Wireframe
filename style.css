@@ -1,3 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+/* centering the header */
+h1{
+  text-align: center;
+}
+/* changing the background color of the page. */
+body{
+  background-color: dimgrey;
+}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -6,7 +17,7 @@
   
   /* Style the links inside the navigation bar */
   .topnav a {
-      float: center;
+      
     text-align: center;
     color: #f2f2f2;
 
@@ -28,31 +39,43 @@
   }
   
   /* Lower to the bottom of the page */
-  .articlesection {
-
+  .articlesection 
+  {
 float: left;
-
 text-align: Center;
 padding: 20px 100px;
 margin: 20px 100px;
-
-
   }
-
+/*adding a white background to "section" */
+.section{
+  background-color:white;
+}
   /* adding a border to the article section */
   .articlesection{
     border: 1px solid powderblue;
-    
+    background-color: grey;
   }
+  /* adding in the aside section */
   aside{
       float: right;
       padding: 100px;
       margin: 100px;
   }
+  /* stopping the sections below the aside from following or being affected by the "foat" function. */
   aside::after {
     float: right;
     text-align: center;
     content: " ";
     display: block;
     clear: both;
+  }
+  /* creating style for the footer */
+  footer {
+    position: fixed;
+    bottom: 0;
+    background-color:white;
+    padding: 10px;
+    text-align: center;
+    color :gray;
+    width: 100%;
   }
