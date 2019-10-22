@@ -54,7 +54,7 @@ body{
     position: fixed;
     left:542px;
     bottom: 61.5px;
-    padding: ;
+    vertical-align: middle;
   }
   /* creating style for the footer */
   footer {
@@ -125,12 +125,20 @@ padding: 10px 10px 10px 10px
 /*creating the "hello world" section within the "sections box" */
 .hello{
   text-align: center;
-
+width: 70%;
+height: 50px;
+position: relative;
+left: 70px;
   box-sizing: border-box;
+  align-content: center;
   color:grey;
   border: #333;
   border-color:white;
   background-color: white;
   padding-top: -110px;
 
+}
+p{
+  align-content: center;
+  vertical-align: middle;
 }
