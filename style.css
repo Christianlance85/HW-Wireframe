@@ -34,7 +34,9 @@ body{
 }  
 /*adding a white background to "section" */
 .section{
+  box-sizing: border-box;
   background-color:white;
+
 }
 
   /* adding in the aside section */
@@ -45,7 +47,7 @@ body{
     border-color:white;
     background-color: white;
     width: 495px;
-    height:450px;
+    height:300px;
     box-sizing: border-box;
     color: grey;
     margin-right: 40px;
@@ -64,8 +66,8 @@ body{
     box-sizing: border-box;
     color: grey;
     width: 1040px;
-    margin-bottom: 20px;
-    margin-left: 35px;
+    margin-bottom: 200px;
+    margin-left: 40px;
   }
 /* creating the overall section that encapsulates the three article sections */
 .section{
@@ -76,7 +78,7 @@ body{
   background-color: white;
   text-align: center;  
   width: 495px;
-  height:450px;
+  height:300px;
   margin-left: 40px;
   
 }
@@ -101,10 +103,14 @@ color: grey;
 border: grey;
 border-color:white;
 background-color: white;
-padding: 10px 10px 10px 10px
+padding: 10px 10px 10px 10px;
+margin-right: 10px;
+margin-left: 10px;
+
 }
 /* creating the article section within the "sections box" */
 .article{
+  box-sizing: border-box;
   text-align: center;
   margin-left: 40px;
   margin-right: 40px;
@@ -112,6 +118,7 @@ padding: 10px 10px 10px 10px
   color: white;
   border: #333;
   border-color:white;
+ height: 150px;
   background-color: grey;
 }
 /* creating the headings section within the "sections box" */
@@ -119,7 +126,12 @@ padding: 10px 10px 10px 10px
   box-sizing: border-box;
   border: #333;
   border-color:white;
-  background-color: white;
+  background-color: white; 
+  margin-top: -150px;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 50px;
+  
 }
 /*creating the "hello world" section within the "sections box" */
 .hello{
