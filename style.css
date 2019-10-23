@@ -1,58 +1,60 @@
+/* Created the styling for the body. */
 body {
-  font-family: 'Ariel', 'Helvetica Neue', Helvetica, sans-serif;
-  color: #777;
-  background: #777;
-  width: 960px;
-  font-size: 18px;
-  margin: auto;
-  line-height: 30px;
+    
+    font-family: 'Ariel', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    margin: auto;
 }
-
+/*  Making the elements display as a block. */
 header,
 nav,
 section,
 aside,
 footer {
-  display: block;
-  background: #ebebee;
-  text-align: center;
-  padding: 10px;
-  margin: 10px;
+    display: block;
+    background: #ebebee;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    
 }
-
+/* Designing the "section" part of the section element. */
 section {
-  overflow: hidden;
-  width: 480px;
-  float: left;
-  display: block;
-  height: 267px;
+    width: 42%;
+    float: left;
+    height: 267px;
 }
-
+/* Aligning the aside section. */
 aside {
-  float: right;
-  width: 40%;
-  overflow: hidden;
-  height: 267px;
-  display: block;
+    float: right;
+    width: 48%;
+    overflow: hidden;
+    height: 267px;
+    
 }
-
+/* Designing the article section. */
 article {
-  color: #ebebeb;
-  background: #777;
-  padding: 10px;
+    color: #ebebeb;
+    background: #777;
+    padding: 10px;
 }
-
-.empty {
-  clear: both;
+/* clearing the floats */
+.clearfloat {
+    clear: both;
 }
+/* Designing the paragraph and heading sections. */
 
 h1,
 p {
-  background: #ebebeb;
-  color: #777;
-  padding: 10px;
-  text-align: center;
-  margin: 10px;
-  width: 90%;
+    background: #ebebeb;
+    color: #777;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 90%;
 }
+
 
