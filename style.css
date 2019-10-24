@@ -23,7 +23,7 @@ aside{
 /* Designing the "section" part of the section element. */
 section {
     display: block;
-    width: 40%;
+    width: 44%;
     float: left;
     height: 267px;
 }
@@ -31,7 +31,7 @@ section {
 aside {
     display: block;
     float: right;
-    width: 40%;
+    width: 46%;
     overflow: hidden;
     height: 267px;
     
